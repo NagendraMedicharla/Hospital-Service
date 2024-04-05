@@ -1,0 +1,42 @@
+.qualification-form-container {
+    width: 400px;
+    /* margin: 0 auto; */
+    margin:80px 100px;
+  }
+   
+  .qualification-form-container h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+   
+  .qualification-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+   
+  .qualification-form-container input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   
+  .qualification-form-container .error {
+    color: red;
+    margin-top: 5px;
+  }
+   
+  .qualification-form-container button {
+    background-color: #1fadff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .qualification-form-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

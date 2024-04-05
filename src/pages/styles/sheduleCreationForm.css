@@ -1,0 +1,52 @@
+.shedule-form-container {
+    max-width: 600px;
+    margin: 90px auto;
+    /* margin-bottom: 80px; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   
+  .shedule-form-field {
+    margin-bottom: 15px;
+  }
+   
+  .shedule-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+   
+  .shedule-form-input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   
+  .add-time-btn, .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+   
+  .add-time-btn:hover, .submit-btn:hover {
+    background-color: #45a049;
+  }
+   
+  .add-time-btn {
+    background-color: #47ccf9;
+    margin-left: 10px;
+  }
+   
+  .add-time-btn:hover {
+    background-color: #006C9A;
+  }

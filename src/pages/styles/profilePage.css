@@ -1,0 +1,108 @@
+.image{
+    width:10vw;
+}
+.total-container{
+  width: 98%;
+}
+.headerSection {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #c0c0c0;
+  box-sizing: border-box;
+}
+.leftSection {
+  height: 77vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+}
+.rightSection {
+  height: 78.1vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.userIcon {
+  font-size: 140px;
+}
+.font14 {
+  font-size: 14px;
+}
+.btn {
+  font-size: 14px;
+}
+.zeroMargin {
+  margin: 0px;
+}
+.headerSection {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #c0c0c0;
+  box-sizing: border-box;
+}
+.leftSection {
+  height: 78.9vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+}
+
+.userIcon {
+  font-size: 140px;
+}
+.headerSection {
+  clear: both;
+  position: relative;
+  /* height: 40px; */
+  box-sizing: border-box;
+}
+.headerText {
+  line-height: 40px;
+}
+.editIcon {
+  float: right;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.textBorder {
+  border-bottom: 2px solid #ce433e;
+}
+
+.input-element {
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  padding-bottom: 0;
+  float: left;
+  width: 300px;
+}
+.btn-info {
+  width: 80px;
+  font-size: 15px;
+
+  box-shadow: none;
+  float: right;
+  margin-left: 10px;
+  /* margin-left: 15px; */
+}
+.cancel-btn {
+  color: slategray;
+  background-color: #f1f1f1;
+}
+.save-btn {
+  color: white;
+  background-color: black;
+}
+input:focus {
+  outline: none;
+}
+.userIpValue {
+  font-weight: bold;
+}
+.mandatorySymbol {
+  padding-left: 5px;
+  color: #ce433e;
+}
