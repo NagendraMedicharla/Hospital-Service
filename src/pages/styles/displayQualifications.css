@@ -1,0 +1,15 @@
+.display-qualification-container{
+    margin: 100px 40px;
+}
+.display-qualification-container h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.qualification-button{
+    height: 35px;
+    width: 120px;
+    border: 0px ;
+    margin-top: 8px;
+    border-radius: 6px;
+    background-color: rgb(103, 205, 239);
+}

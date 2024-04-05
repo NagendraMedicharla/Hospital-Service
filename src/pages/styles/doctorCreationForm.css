@@ -1,0 +1,68 @@
+.doctor-form-container {
+  width: 90%;
+  /* margin: 0 auto; */
+  margin: 80px 50px;
+}
+
+.doctor-creation-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.doctor-creation-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.doctor-creation-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.doctor-form-container h2 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  margin-left: 45px;
+}
+
+.doctor-form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.doctor-form-container input {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.doctor-form-container .error {
+  color: red;
+  margin-top: 5px;
+}
+
+.doctor-form-container button {
+  background-color: #1fadff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.doctor-form-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
